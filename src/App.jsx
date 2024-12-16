@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
+import {Helmet} from "react-helmet";
 import './App.css'
 
 function App() {
@@ -8,26 +9,48 @@ function App() {
 
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
+        <Helmet>
+            <meta data-react-helmet="true" property="og:url"
+                  content="https://www.glassesusa.com/tortoise-medium/amelia-e-nettle/35-000407.html"/>
+            <meta data-react-helmet="true" property="og:title"
+                  content="Amelia E. Nettle Tortoise Eyeglasses | Includes Free Rx Lenses | GlassesUSA.com"/>
+            <meta data-react-helmet="true" property="og:description"
+                  content="The Amelia E. Nettle is an elegant frame that leaves a lasting impression. Crafted from high grade acetate, it features subtle rim curves, stylish silver rivets and refined arms with a rich hue."/>
+            <meta data-react-helmet="true" property="og:type" content="website"/>
+            <meta data-react-helmet="true" property="og:image"
+                  content="https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/000407_f_3.jpg"/>
+            <meta data-react-helmet="true" property="og:site_name" content="GlassesUSA.com"/>
+            <meta data-react-helmet="true" name="description"
+                  content="The Amelia E. Nettle is an elegant frame that leaves a lasting impression. Crafted from high grade acetate, it features subtle rim curves, stylish silver rivets and refined arms with a rich hue."/>
+            <meta data-react-helmet="true" name="keywords"
+                  content="Eyeglasses, glasses, buy eyeglasses online, glasses frames online, prescription glasses, prescription eyeglasses, cheap eyeglasses, discount eyeglasses"/>
+            <meta data-react-helmet="true" name="robots" content="index,follow"/>
+            <meta property="og:image:width" content="300"/>
+            <meta property="og:image:height" content="300"/>
+            <meta property="og:type" content="website"/>
+            <meta property="og:image:type" content="image/jpg"/>
+            <meta property="og:locale" content="en_US"/>
+        </Helmet>
+        <div>
+            <a href="https://vite.dev" target="_blank">
+                <img src={viteLogo} className="logo" alt="Vite logo"/>
+            </a>
+            <a href="https://react.dev" target="_blank">
+                <img src={reactLogo} className="logo react" alt="React logo"/>
+            </a>
+        </div>
+        <h1>Vite + React</h1>
+        <div className="card">
+            <button onClick={() => setCount((count) => count + 1)}>
+                count is {count}
+            </button>
+            <p>
+                Edit <code>src/App.jsx</code> and save to test HMR
+            </p>
+        </div>
+        <p className="read-the-docs">
+            Click on the Vite and React logos to learn more
         </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
     </>
   )
 }
