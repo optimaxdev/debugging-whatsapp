@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://optimaxdev.github.io/debugging-whatsapp",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
