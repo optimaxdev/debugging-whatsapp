@@ -16,9 +16,9 @@ function App() {
                   content="Amelia E. Nettle Tortoise Eyeglasses | Includes Free Rx Lenses | GlassesUSA.com"/>
             <meta data-react-helmet="true" property="og:description"
                   content="The Amelia E. Nettle is an elegant frame that leaves a lasting impression. Crafted from high grade acetate, it features subtle rim curves, stylish silver rivets and refined arms with a rich hue."/>
-            <meta data-react-helmet="true" property="og:type" content="website"/>
+            <meta data-react-helmet="true" property="og:type" content="website"/>vite
             <meta data-react-helmet="true" property="og:image"
-                  content="https://optimaxdev.github.io/debugging-whatsapp/vite.svg"/>
+                  content="https://optimaxdev.github.io/debugging-whatsapp/viteScreenshot.png"/>
             <meta data-react-helmet="true" property="og:site_name" content="GlassesUSA.com"/>
             <meta data-react-helmet="true" name="description"
                   content="The Amelia E. Nettle is an elegant frame that leaves a lasting impression. Crafted from high grade acetate, it features subtle rim curves, stylish silver rivets and refined arms with a rich hue."/>
@@ -38,8 +38,9 @@ function App() {
             <a href="https://react.dev" target="_blank">
                 <img src={reactLogo} className="logo react" alt="React logo"/>
             </a>
+            <img src='assets/viteScreenshot.png' className="screenShot" alt="screenShot"/>
         </div>
-        <h1>Vite + React</h1>
+        <h1>Vite + React1</h1>
         <div className="card">
             <button onClick={() => setCount((count) => count + 1)}>
                 count is {count}
