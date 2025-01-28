@@ -40,7 +40,7 @@ function App() {
             </a>
             <img src='assets/viteScreenshot.png' className="screenShot" alt="screenShot"/>
         </div>
-        <h1>Vite + React1</h1>
+        <h1>Vite + React2</h1>
         <div className="card">
             <button onClick={() => setCount((count) => count + 1)}>
                 count is {count}
