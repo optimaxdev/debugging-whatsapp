@@ -18,7 +18,7 @@ function App() {
                   content="The Amelia E. Nettle is an elegant frame that leaves a lasting impression. Crafted from high grade acetate, it features subtle rim curves, stylish silver rivets and refined arms with a rich hue."/>
             <meta data-react-helmet="true" property="og:type" content="website"/>
             <meta data-react-helmet="true" property="og:image"
-                  content="https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/000407_f_3.jpg"/>
+                  content="https://optimaxdev.github.io/debugging-whatsapp/vite.svg"/>
             <meta data-react-helmet="true" property="og:site_name" content="GlassesUSA.com"/>
             <meta data-react-helmet="true" name="description"
                   content="The Amelia E. Nettle is an elegant frame that leaves a lasting impression. Crafted from high grade acetate, it features subtle rim curves, stylish silver rivets and refined arms with a rich hue."/>
